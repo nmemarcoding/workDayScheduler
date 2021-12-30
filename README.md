@@ -25,6 +25,9 @@
 
 ## Mock-Up
 
-* The following animation demonstrates the application functionality:
+<img width="542" alt="Screen Shot 2021-12-29 at 7 16 18 PM" src="https://user-images.githubusercontent.com/94582549/147719016-3835ff14-4241-42e1-a8e7-1e4ae3746726.png">
+
+<img width="546" alt="Screen Shot 2021-12-29 at 7 16 24 PM" src="https://user-images.githubusercontent.com/94582549/147719019-164a33a5-a876-4b75-8d8c-fcd81125c576.png">
+
 
 To vist this workDayScheduler, go to: https://nmemarcoding.github.io/workDayScheduler/
