@@ -15,18 +15,18 @@ $(document).ready(function() {
 
     function timeTracker() {
         //get current number of hours.
-        var timeNow = moment().hour();
+        var correntTime = moment().hour();
 
         // loop over time blocks
         $(".time-block").each(function() {
             var blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
             // To check the time and add the classes for background indicators
-            if (blockTime < timeNow) {
+            if (blockTime < correntTime) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");
                 $(this).addClass("past");
-            } else if (blockTime === timeNow) {
+            } else if (blockTime === correntTime) {
                 $(this).removeClass("past");
                 $(this).removeClass("future");
                 $(this).addClass("present");
